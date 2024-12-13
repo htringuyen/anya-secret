@@ -10,10 +10,10 @@ public class PatternBasedValidatorTest {
 
     @Test
     void samplePattern() {
-        var sampleSecret = "MTliZWRiZTY4MWM4MDgyYjNhNTBhMmFjNDQ2NmU2NjJlMzU4ZjRiMTQ0NDAwZjNhNjY4ZWJlZDNmNzVjZjhhNw";
+        var sampleSecret = "aBcDeFgHi==123456789";
 
         var props = new Properties();
-        props.put("validation.regex", "MTl.*");
+        props.put("validation.regex", "aBc.*");
 
         var validator = new PatternBasedValidator();
         validator.configure(props);

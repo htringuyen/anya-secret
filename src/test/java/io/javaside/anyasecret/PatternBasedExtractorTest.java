@@ -10,7 +10,7 @@ public class PatternBasedExtractorTest {
     @Test
     void samplePattern() {
         // Sample HTML content
-        var sampleSecret = "MTliZWRiZTY4MWM4MDgyYjNhNTBhMmFjNDQ2NmU2NjJlMzU4ZjRiMTQ0NDAwZjNhNjY4ZWJlZDNmNzVjZjhhNw==";
+        var sampleSecret = "aBcDeFgHi==123456789";
 
         var html = "<img class=\"styled-image\" src=\"data:image/png;base64," + sampleSecret + "\"/>";
 
